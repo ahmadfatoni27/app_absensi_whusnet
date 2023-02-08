@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background: #f9f7f7;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-default, .btn-default{
+  background-color: #406491 !important;
+}
+.bg-gray{
+  background-color: #D9D9D9 !important;
+}
+
+.text-default{
+  color: #406491 !important;
+}
+
+/* login */
+.mt-11 {
+    margin-top: 11rem!important;
+}
+
+/* EditProfilSaya */
+.mt-6 {
+    margin-top: 5rem!important;
+}
+.mt-7 {
+    margin-top: 7rem!important;
+}
+
+
+.img-photo{
+  height: 110px;
+  width: 110px;
+}
+
+/* text */
+.lt-spacing {
+    letter-spacing: 0.8px;
+}
+
+/* cursor */
+.cursor{
+  cursor: pointer;
+}
+/* -- */
+/* sweetalert*/
+
+/* -- */
+
+button:focus:not(a), input:focus:not(a){
+  outline: 3px solid transparent !important;
+  color: #dfeafb;
+  opacity: 65% !important;
+  box-shadow: none !important;
+}
+.font-18 { font-size: 18px }
+.font-24 { font-size: 24px }
+.font-36 { font-size: 36px }
+.fw-white { color: #FFFFFF; }
+.fw-600 { font-weight: 600; }
+.fw-500 { font-weight: 500; }
+.fw-400 { font-weight: 400; }
+
+.rounded-top {
+    border-radius: 1.3em 1.3em 0 0 !important;
+}
+.rounded-bottom {
+    border-radius: 0 0 1.3em 1.3em !important;
+}
+
+
+@media (max-width: 991.98px) {
+  .font-mobile-20{
+    font-size: 20px;
+  }
+  svg#todolistempty {
+    width: 285px;
+    align-content: center;
+  }
+}
